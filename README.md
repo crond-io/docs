@@ -1,6 +1,6 @@
 ## Introduction
 
-[crond.io](https://www.crond.io) is a cron daemon that lives on the internet. It is a _cron-as-a-service_ that schedules HTTP calls and collects responses for analysis. It can be used to trigger workflows on the internet like mail campaigns or monitor the health of your services. It is fully programmable over a REST API and comes with a pretty UI as well.
+[**crond.io**](https://www.crond.io) is a cron daemon that lives on the internet. It is a _cron-as-a-service_ that schedules HTTP calls and collects responses for analysis. It can be used to trigger workflows on the internet like mail campaigns or monitor the health of your services. It is fully programmable over a REST API and comes with a pretty UI as well.
 
 ### Getting Started
 
