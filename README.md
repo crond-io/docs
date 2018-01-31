@@ -8,7 +8,7 @@ Head on to [https://www.crond.io](https://www.crond.io) and sign in with your Gi
 
 
 
-> The service is in its beta stage and imposes a limit of 100 tasks per account. The product is not production ready yet and will not be responsible for any loss of data.
+> The service is in its beta stage and imposes a limit of 100 tasks per account. The product is not production ready yet and will not be responsible for any loss of data. It aims to be a free service for everyone.
 
 
 
