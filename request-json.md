@@ -2,15 +2,15 @@
 
 Every task scheduled on [crond.io](https://www.crond.io) is a standard HTTP request. The request to be made is represented in the form of a JSON with the following configurable fields:
 
-* **url \(string, required\): **The HTTP URL of the request.
-* **method \(string, optional\): ** The HTTP method to be used. Defaults to GET.
-* **params \(map, optional\): **Additional parameters for the request to be sent as query string.
-* **body \(string, optional\): **A string that will be sent as the body of the request.
-* **json \(any, optional\): **JSON body that needs to be sent as the body of the request.
-* **cookies \(map, optional\): **Cookies to be sent along with the request.
-* **auth \(map, optional\): **HTTP Basic Auth parameters to be used as a map containing a 'user' key and 'pass' key.
-* **timeout \(number, optional\): **How many seconds to wait for the server to send data before giving up.
-* **allow\_redirects \(boolean, optional\): **Enable/disable GET/OPTIONS/POST/PUT/PATCH/DELETE/HEAD redirection. Defaults to true.
+* **url **_**\(string, required\)**_**: **The HTTP URL of the request.
+* **method **_**\(string, optional\)**_**: ** The HTTP method to be used. Defaults to GET.
+* **params **_**\(map, optional\)**_**: **Additional parameters for the request to be sent as query string.
+* **body **_**\(string, optional\)**_**: **A string that will be sent as the body of the request.
+* **json **_**\(any, optional\)**_**: **JSON value that needs to be sent as the body of the request.
+* **cookies **_**\(map, optional\)**_**: **Cookies to be sent along with the request.
+* **auth **_**\(map, optional\)**_**: **HTTP Basic Auth parameters to be used as a map containing a 'user' key and 'pass' key.
+* **timeout **_**\(number, optional\)**_**: **How many seconds to wait for the server to send data before giving up.
+* **allow\_redirects **_**\(boolean, optional\)**_**: **Enable/disable automatic redirection. Defaults to true.
 
 
 
