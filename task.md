@@ -8,7 +8,7 @@ Every task scheduled on [crond.io](https://www.crond.io) is a standard HTTP requ
 * **body \(string, optional\): **A string that will be sent as the body of the request.
 * **json \(any, optional\): **JSON value that needs to be sent as the body of the request.
 * **cookies \(map, optional\): **Cookies to be sent along with the request.
-* **auth \(map, optional\): **HTTP Basic Auth parameters to be used as a map containing a 'user' key and 'pass' key.
+* **auth \(map, optional\): **A map containing 'user' and 'pass' fields for HTTP Basic Auth.
 * **timeout \(number, optional\): **How many seconds to wait for the server to send data before giving up.
 * **allow\_redirects \(boolean, optional\): **Enable/disable automatic redirection. Defaults to true.
 
