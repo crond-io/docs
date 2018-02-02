@@ -6,7 +6,7 @@
 
 Head on to [crond.io](https://www.crond.io) and sign in with your GitHub account. Once you have authenticated, you can start scheduling tasks right away from the web console manually or you can grab your API key from the account settings and get started with the REST API to programatically schedule tasks.
 
-Trying to [**sign in to the web console**](https://www.crond.io) or [**read the API reference manual**](https://docs.crond.io/api-reference.html)?
+Trying to [sign in to the web console](https://www.crond.io) or [read the API reference manual](https://docs.crond.io/api-reference.html) ?
 
 ### Motivation
 
