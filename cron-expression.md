@@ -6,27 +6,27 @@ Schedules are expressed as [cron expressions](https://en.wikipedia.org/wiki/Cron
 *      *      *      *      *
 ┬      ┬      ┬      ┬      ┬
 │      │      │      │      │
-│      │      │      │      └─ Day of week (0 - 6 or SUN - SAT)
+│      │      │      │      └─ Day of week
 │      │      │      │  
-│      │      │      └──────── Month (1 - 12 or JAN - DEC)
+│      │      │      └──────── Month
 │      │      │
-│      │      └─────────────── Day of month (1 - 31)
+│      │      └─────────────── Day of month
 │      │
-│      └────────────────────── Hour (0 - 23)
+│      └────────────────────── Hour
 │
-└───────────────────────────── Minute (0 - 59)
+└───────────────────────────── Minute
 ```
 
 | Field Name | Allowed Values | Allowed Special Characters |
 | :--- | :--- | :--- |
-| Day of week | 0 - 6 or SUN - SAT | **\* / , - L** |
-| Month | 1 - 12 or JAN - DEC | **\* / , -** |
-| Day of month | 1 - 31 | **\* / , - L** |
-| Hour | 0 - 23 | **\* / , -** |
-| Minute | 0 - 59 | **\* / , -** |
+| **Day of week** | 0 - 6 or SUN - SAT | **\* / , - L** |
+| **Month** | 1 - 12 or JAN - DEC | **\* / , -** |
+| **Day of month** | 1 - 31 | **\* / , - L** |
+| **Hour** | 0 - 23 | **\* / , -** |
+| **Minute** | 0 - 59 | **\* / , -** |
 
 > The month and weekday abbreviations are not case-sensitive.
-
+>
 > At most one of 'day of week' or 'day of month' can be a value other than '\*'.
 
 ### Slash \(`/`\)
@@ -46,4 +46,17 @@ Hyphens define ranges. For example, 2000-2010 indicates every year between 2000 
 ### L
 
 'L' stands for "last". When used in the day-of-week field, it allows you to specify constructs such as "the last Friday" \("5L"\) of a given month. In the day-of-month field, it specifies the last day of the month.
+
+## Examples
+
+| Cron | Meaning |
+| :--- | :--- |
+| 30 \*/2 \* \* \* | 30 minutes past the hour every 2 hours. |
+| 15,45 23 \* \* \* | 11:15 PM and 11:45 PM everyday. |
+| 0 1 \* \* SUN | 1 AM every Sunday. |
+| 20 16 L \* \* | 4:20 PM on the last day of every month. |
+| 20 16 \* \* L5 | 4:20 PM on the last friday of every month. |
+| 20 16 \* \* Lwed-fri | 4:20 PM on the last wednesay, thursday and friday of every month. |
+
+
 
