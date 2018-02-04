@@ -27,6 +27,8 @@ Schedules are expressed as [cron expressions](https://en.wikipedia.org/wiki/Cron
 
 > The month and weekday abbreviations are not case-sensitive.
 
+> At most one of 'day of week' or 'day of month' can be a value other than '\*'.
+
 ### Slash \(`/`\)
 
 Slashes can be combined with ranges to specify step values.For example, `*/5` in the minutes field indicates every 5 minutes.
