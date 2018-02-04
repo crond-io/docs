@@ -1,6 +1,6 @@
 # Cron Syntax
 
-Schedules are expressed as [cron expressions](https://en.wikipedia.org/wiki/Cron#CRON_expression). The cron expression supported by [crond.io](https://www.crond.io) is the popular space-separated five field syntax that represents a set of times as follows:
+Schedules are expressed as [cron expressions](https://en.wikipedia.org/wiki/Cron#CRON_expression). The cron expression supported by [crond.io](https://www.crond.io) is the popular _**space-separated five field**_ syntax that represents a set of times as follows:
 
 ```
 *      *      *      *      *
