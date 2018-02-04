@@ -55,8 +55,8 @@ Hyphens define ranges. For example, 2000-2010 indicates every year between 2000 
 | 15,45 23 \* \* \* | 11:15 PM and 11:45 PM everyday. |
 | 0 1 \* \* SUN | 1 AM every Sunday. |
 | 20 16 L \* \* | 4:20 PM on the last day of every month. |
-| 20 16 \* \* L5 | 4:20 PM on the last friday of every month. |
-| 20 16 \* \* Lwed-fri | 4:20 PM on the last wednesay, thursday and friday of every month. |
+| 20 16 \* \* L5 | 4:20 PM on the last Friday of every month. |
+| 20 16 \* \* Lwed-fri | 4:20 PM on the last Wednesay, Thursday and Friday of every month. |
 
 
 
